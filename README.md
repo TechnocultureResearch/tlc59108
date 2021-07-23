@@ -1,2 +1,2 @@
-# tlc59108
+# TLC 59108
 Arduino library for TI TLC59108 LED drivers
