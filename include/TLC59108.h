@@ -18,10 +18,10 @@
  */
 
 #ifndef TLC59108_H
-# define TLC59108_H
+#define TLC59108_H
 
-# include <Arduino.h>
-# include "Wire.h"
+#include <Arduino.h>
+#include "Wire.h"
 
 class TLC59108
 {

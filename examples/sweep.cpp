@@ -1,3 +1,4 @@
+#include "Arduino.h"
 #include <Wire.h>
 
 #include "TLC59108.h"
@@ -6,6 +7,8 @@
 #define I2C_ADDR TLC59108::I2C_ADDR::BASE
 
 TLC59108 leds(I2C_ADDR);
+
+void sweep();
 
 void setup() {
   Wire.begin();
