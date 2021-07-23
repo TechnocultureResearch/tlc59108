@@ -1,6 +1,6 @@
 {
   "name": "TLC 59108",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Driver for TLC 59108 multi-channel PWM controller",
   "keywords": "Multichannel, PWM",
   "repository": {
@@ -20,5 +20,5 @@
   "license": "MIT",
   "homepage": "https://github.com/TechnocultureResearch/tlc59108",
   "frameworks": "Arduino",
-  "platforms": ["atmelavr", "atmelsam"]
+  "platforms": ["atmelavr"]
 }
